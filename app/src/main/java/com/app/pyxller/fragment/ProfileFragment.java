@@ -233,29 +233,30 @@ public class ProfileFragment extends Fragment {
      * User Posts on Profile Fragment
      */
     private void profilePosts() {
+        DatabaseReference reference = FirebaseDatabase.getInstance().getReference("Posts");
+        Toast.makeText(getContext(), "reference"+ reference, Toast.LENGTH_SHORT).show();
 
-        postsDb = FirebaseFirestore.getInstance();
-        postsReference = postsDb.collection("Posts");
-
-        postsReference.get()
-                .addOnSuccessListener(new OnSuccessListener<QuerySnapshot>() {
-                    @Override
-                    public void onSuccess(QuerySnapshot queryDocumentSnapshots) {
-                        posts.clear();
-                        List<DocumentSnapshot> list = queryDocumentSnapshots.getDocuments();
-                        for (DocumentSnapshot snapshot : list) {
-                            Posts model = snapshot.toObject(Posts.class);
-
-                            if (model.getUid().equals(currentUserId)) {
-                                posts.add(model);
-                            }
-
+        reference.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+                posts.clear();
+                if (dataSnapshot.exists()) {
+                    for (DataSnapshot snapshot : dataSnapshot.getChildren()) {
+                        Posts post = snapshot.getValue(Posts.class);
+                        if (post.getUid().equals(currentUserId)){
+                            posts.add(post);
                         }
-                        Collections.reverse(posts);
-                        profilePostsAdapter.notifyDataSetChanged();
                     }
-                });
+                    Collections.reverse(posts);
+                    profilePostsAdapter.notifyDataSetChanged();
+                }
+            }
 
+            @Override
+            public void onCancelled(@NonNull DatabaseError error) {
+
+            }
+        });
     }
 
     /**
