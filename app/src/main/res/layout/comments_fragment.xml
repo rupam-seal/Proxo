@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment.CommentsFragment"
+    android:background="@color/primary_900">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent"
+        app:titleTextAppearance="@style/Toolbar.TitleText" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.2dp"
+        android:id="@+id/divider"
+        android:layout_marginTop="1dp"
+        android:layout_below="@id/toolbar"
+        android:background="@color/divider_color"/>
+
+    <com.facebook.shimmer.ShimmerFrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/add_comment_container"
+        android:layout_below="@id/divider"
+        android:id="@+id/shimmer_comment">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <include layout="@layout/shimmer_comments_fragment"/>
+            <include layout="@layout/shimmer_comments_fragment"/>
+            <include layout="@layout/shimmer_comments_fragment"/>
+            <include layout="@layout/shimmer_comments_fragment"/>
+            <include layout="@layout/shimmer_comments_fragment"/>
+            <include layout="@layout/shimmer_comments_fragment"/>
+            <include layout="@layout/shimmer_comments_fragment"/>
+
+        </LinearLayout>
+
+    </com.facebook.shimmer.ShimmerFrameLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/comment_act_recycler_view"
+        android:layout_above="@id/add_comment_container"
+        android:layout_below="@id/divider"
+        android:visibility="gone"/>
+
+    <RelativeLayout
+        android:id="@+id/add_comment_container"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/primary_700">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.2dp"
+            android:layout_alignParentTop="true"
+            android:background="@color/divider_color" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img_profile"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp" />
+
+        <EditText
+            android:id="@+id/edt_comment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_toStartOf="@id/btn_post"
+            android:layout_toLeftOf="@id/btn_post"
+            android:layout_toEndOf="@id/img_profile"
+            android:layout_toRightOf="@id/img_profile"
+            android:background="@android:color/transparent"
+            android:hint="Add a comment..."
+            android:maxLines="5"
+            android:textColor="@color/text_700"
+            android:textColorHint="@color/text_600"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/btn_post"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:text="POST"
+            android:textColor="@color/secondary_900"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

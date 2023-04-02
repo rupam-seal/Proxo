@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/go_to_profile"
+        android:title="Go to profile"/>
+
+    <item android:id="@+id/edit_comment"
+        android:title="Edit"/>
+
+    <item android:id="@+id/delete_comment"
+        android:title="Delete"/>
+
+    <item android:id="@+id/hide_comment"
+        android:title="Hide"/>
+
+    <item android:id="@+id/report_comment"
+        android:title="Report..."/>
+
+</menu>

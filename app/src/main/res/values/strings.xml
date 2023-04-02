@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Pyxller</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home_add">add</string>
+
+    <!-- logo name -->
+    <string name="logo_name">Pyxller</string>
+
+    <!-- start_activity_splash -->
+    <string name="splash_powered_by">powered by</string>
+    <string name="splash_company_name">ORBIT</string>
+    <string name="splash_logo_todo">TODO</string>
+
+    <!-- start_activity_startup -->
+    <string name="start_get_started">Get Started</string>
+
+    <!-- start_activity_login -->
+    <string name="login_txt_login">Login</string>
+    <string name="login_please_sign_in_to_continue">Please sign in to continue</string>
+    <string name="login_enter_email">Email</string>
+    <string name="login_enter_password">Password</string>
+    <string name="login_remember_me">Remember me</string>
+    <string name="login_forget_password">Forget password?</string>
+    <string name="login_dont_have_an_account">Don\'t have an account ?</string>
+    <string name="sign_please_fill_the_input_below_here">Please fill the input below here</string>
+
+    <!-- start_activity_signUp -->
+    <string name="sign_txt_sign_up">Sign up</string>
+    <string name="sign_logo_create_account">Create Account</string>
+    <string name="sign_full_name">Full Name</string>
+    <string name="sign_username">Username</string>
+    <string name="sign_phone">Phone</string>
+    <string name="sign_enter_email">Email</string>
+    <string name="sign_enter_password">Password</string>
+    <string name="sign_enter_confirm_password">Confirm password</string>
+    <string name="sign_remember_me">Remember me</string>
+    <string name="sign_already_have_an_account">Already have an account ?</string>
+    <string name="sign_select">select</string>
+    <string name="setup">Setup</string>
+    <string name="create">Create</string>
+    <string name="profile_bio">The Nutcracker and the Four Realms is a 2018
+        American fantasy adventure film directed by lasse
+        Hallstarm and joe johtson based on a</string>
+</resources>

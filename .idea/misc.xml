@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Projects/Android Studio Projects/Pyxller Source/Pyxller/app/src/main/res/layout/c_c_fragment.xml" value="0.18931159420289856" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/drawable-anydpi/home_item_comments.xml" value="0.149" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/drawable-anydpi/home_item_like.xml" value="0.149" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/drawable-anydpi/home_item_liked.xml" value="0.149" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/drawable-anydpi/ic_add.xml" value="0.149" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/drawable-anydpi/ic_back.xml" value="0.149" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/drawable-anydpi/ic_group.xml" value="0.149" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/drawable-anydpi/ic_search.xml" value="0.149" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/drawable-anydpi/m_ic_chat.xml" value="0.149" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/drawable-anydpi/main_act_chat.xml" value="0.149" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/drawable-anydpi/post_act_camera.xml" value="0.149" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/drawable-anydpi/profile_options.xml" value="0.149" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/drawable-anydpi/start_act_go.xml" value="0.149" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/drawable/background_post_edit_text.xml" value="0.149" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/drawable/bg_btn_solid.xml" value="0.149" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/drawable/bg_change.xml" value="0.149" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/drawable/bg_indicator.xml" value="0.149" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/drawable/bg_item.xml" value="0.149" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/drawable/bg_posts_tag.xml" value="0.149" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/drawable/bg_primary_50.xml" value="0.149" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/drawable/bg_profile_layer.xml" value="0.149" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/drawable/bg_tablayout.xml" value="0.149" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/drawable/bgt_btn_outline.xml" value="0.12" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/drawable/bgt_btn_solid.xml" value="0.149" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/drawable/chat.xml" value="0.149" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/drawable/chat_background_left.xml" value="0.149" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/drawable/chat_background_right.xml" value="0.149" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/drawable/heart_selector.xml" value="0.149" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/drawable/home.xml" value="0.149" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/drawable/ic_add.xml" value="0.149" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/drawable/ic_heart.xml" value="0.149" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/drawable/ic_heart_line.xml" value="0.149" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/drawable/ic_heart_red.xml" value="0.149" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/drawable/ic_home.xml" value="0.149" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/drawable/ic_message.xml" value="0.149" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/drawable/ic_profile.xml" value="0.149" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/drawable/ic_search.xml" value="0.149" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/drawable/ic_status.xml" value="0.149" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/drawable/ic_vector.xml" value="0.149" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/drawable/ic_vector_15.xml" value="0.149" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/drawable/indicator_white.xml" value="0.149" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/drawable/like_anim.xml" value="0.149" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/drawable/m_ic_home.xml" value="0.12" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/drawable/person.xml" value="0.149" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/drawable/profile_gradient.xml" value="0.149" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/drawable/profile_gradient2.xml" value="0.149" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/drawable/square_connections_background.xml" value="0.149" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/drawable/square_search_background.xml" value="0.149" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/drawable/status.xml" value="0.149" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/layout/a_home_top_item.xml" value="0.10885416666666667" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/layout/activity_edit_profile.xml" value="0.264" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/layout/activity_mactivity.xml" value="0.21068376068376068" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/layout/activity_post.xml" value="0.21068376068376068" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/layout/c_c_fragment.xml" value="0.25677083333333334" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/layout/c_chat_click_fragment.xml" value="0.25677083333333334" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/layout/c_chat_fragment.xml" value="0.25677083333333334" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/layout/c_chat_item.xml" value="0.25677083333333334" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/layout/c_chat_request_fragment.xml" value="0.25677083333333334" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/layout/c_left.xml" value="0.25677083333333334" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/layout/c_m_fragment.xml" value="0.25677083333333334" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/layout/c_right.xml" value="0.25677083333333334" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/layout/c_text_item_left.xml" value="0.25677083333333334" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/layout/c_text_item_right.xml" value="0.25677083333333334" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/layout/c_user_item.xml" value="0.25677083333333334" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/layout/comments_fragment.xml" value="0.1" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/layout/comments_item.xml" value="0.21068376068376068" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/layout/d_search_user_item.xml" value="0.10885416666666667" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/layout/e_explore_fragment.xml" value="0.25677083333333334" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/layout/f_search_fragment.xml" value="0.25677083333333334" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/layout/f_user_item.xml" value="0.25677083333333334" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/layout/feed_explore_fragment.xml" value="0.25677083333333334" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/layout/feed_fragment.xml" value="0.2" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/layout/feed_home_fragment.xml" value="0.2" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/layout/feed_posts_item.xml" value="0.21068376068376068" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/layout/feed_shimmer_layout.xml" value="0.25677083333333334" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/layout/h_h_fragment.xml" value="0.12487335359675786" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/layout/h_home_fragment.xml" value="0.25677083333333334" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/layout/h_home_post_item.xml" value="0.25677083333333334" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/layout/h_post_activity.xml" value="0.25677083333333334" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/layout/h_top_item.xml" value="0.25677083333333334" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/layout/item_chat.xml" value="0.264" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/layout/item_comment.xml" value="0.1" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/layout/item_connections.xml" value="0.1" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/layout/item_feed_posts.xml" value="0.1" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/layout/item_home_top.xml" value="0.264" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/layout/item_individual.xml" value="0.1" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/layout/item_message_left.xml" value="0.25677083333333334" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/layout/item_message_right.xml" value="0.25677083333333334" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/layout/item_message_user.xml" value="0.25677083333333334" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/layout/item_profile_posts.xml" value="0.39314194577352474" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/layout/item_search_connections.xml" value="0.25677083333333334" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/layout/item_search_user.xml" value="0.1" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/layout/item_user.xml" value="0.264" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/layout/l_live_fragment.xml" value="0.10885416666666667" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/layout/m_main_activity.xml" value="0.25677083333333334" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/layout/m_view_snap_tab.xml" value="0.25677083333333334" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/layout/main_activity.xml" value="0.264" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/layout/message_chat_fragment.xml" value="0.264" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/layout/message_chat_left_item.xml" value="0.4" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/layout/message_chat_right_item.xml" value="0.21068376068376068" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/layout/message_connections_fragment.xml" value="0.1" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/layout/message_connections_item.xml" value="0.1" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/layout/message_fragment.xml" value="0.1" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/layout/message_group_fragment.xml" value="0.25677083333333334" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/layout/message_individual_fragment.xml" value="0.1" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/layout/message_individual_item.xml" value="0.1" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/layout/message_item_right.xml" value="0.25677083333333334" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/layout/message_item_user.xml" value="0.25677083333333334" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/layout/o_comment_fragment.xml" value="0.25677083333333334" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/layout/o_comment_item.xml" value="0.25677083333333334" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/layout/p_edit_profile_activity.xml" value="0.25677083333333334" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/layout/p_profile_click_fragment.xml" value="0.25677083333333334" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/layout/p_profile_fragment.xml" value="0.25677083333333334" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/layout/p_profile_posts_item.xml" value="0.25677083333333334" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/layout/post_activity.xml" value="0.29200463499420626" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/layout/profile_edit_activity.xml" value="0.25677083333333334" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/layout/profile_fragment.xml" value="0.264" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/layout/profile_fragment2.xml" value="0.1" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/layout/profile_posts_item.xml" value="0.21068376068376068" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/layout/profile_user_fragment.xml" value="0.264" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/layout/search_fragment.xml" value="0.176" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/layout/search_item.xml" value="0.2" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/layout/search_item_user.xml" value="0.25677083333333334" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/layout/shimmer_chat.xml" value="0.25677083333333334" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/layout/shimmer_comment.xml" value="0.25677083333333334" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/layout/shimmer_comments.xml" value="0.264" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/layout/shimmer_comments_fragment.xml" value="0.21068376068376068" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/layout/shimmer_feed_fragment.xml" value="0.21068376068376068" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/layout/shimmer_feed_post.xml" value="0.25677083333333334" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/layout/shimmer_individual.xml" value="0.25677083333333334" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/layout/shimmer_message_individual_fragment.xml" value="0.21068376068376068" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/layout/shimmer_search.xml" value="0.2" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/layout/shimmer_search_fragment.xml" value="0.1" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/layout/shimmer_user.xml" value="0.25677083333333334" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/layout/start_login_activity.xml" value="0.25677083333333334" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/layout/start_onboarding_activity.xml" value="0.25677083333333334" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/layout/start_register_activity.xml" value="0.21068376068376068" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/layout/start_setup_activity.xml" value="0.25677083333333334" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/layout/start_signup_activity.xml" value="0.25677083333333334" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/layout/start_startup_activity.xml" value="0.21068376068376068" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/layout/status_fragment.xml" value="0.25677083333333334" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/menu/bottom_navigation_view.xml" value="0.10885416666666667" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/menu/c_comment_option_menu.xml" value="0.25677083333333334" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/menu/m_bottom_navigation_view.xml" value="0.25677083333333334" />
+        <entry key="..\:/Software Engineering/Github/Android/Pyxller/app/src/main/res/menu/post_menu.xml" value="0.25677083333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

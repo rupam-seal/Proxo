@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="120dp"
+        android:layout_height="match_parent"
+        android:layout_marginRight="15dp"
+        app:cardCornerRadius="8dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:id="@+id/p_postsItem"
+            android:background="@color/text_600">
+        </ImageView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:layout_margin="5dp"
+            android:layout_gravity="bottom|right"
+            android:background="@drawable/bg_posts_stat">
+
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/ic_heart_red"
+                android:layout_marginRight="4dp"
+                android:backgroundTint="@color/primary_900"/>
+
+            <TextView
+                android:id="@+id/profile_likes_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1.4M"
+                android:textSize="8sp"
+                android:textColor="@color/primary_900"
+                android:textStyle="bold"
+                android:layout_gravity="center_vertical" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

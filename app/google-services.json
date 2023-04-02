@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "71904153294",
+    "project_id": "pyxller-7695d",
+    "storage_bucket": "pyxller-7695d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:71904153294:android:e7351d64d7f6c7f4c20a9f",
+        "android_client_info": {
+          "package_name": "com.app.pyxller"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "71904153294-b2qmuvs1q03p44cu33tv19v7da7nf12q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.pyxller",
+            "certificate_hash": "2d3e5bd5a4f510733a2800aa41a09005d823d04b"
+          }
+        },
+        {
+          "client_id": "71904153294-82mis38bfbjmme9t06p6300tjq518e3f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmFW06DkHJO092EBWnVifilRlZRancbdQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "71904153294-82mis38bfbjmme9t06p6300tjq518e3f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

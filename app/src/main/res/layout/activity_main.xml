@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary_900"
+    tools:context=".activity.MainActivity">
+
+<!--    <View-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="0.2dp"-->
+<!--        android:background="#3A3A3A"/>-->
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bottom_navigation_view"
+        android:layout_alignParentBottom="true"
+        app:itemIconTint="@color/selector"
+        app:itemIconSize="20dp"
+        app:itemTextAppearanceActive="@style/BottomNavigationView"
+        app:itemTextAppearanceInactive="@style/BottomNavigationView"
+        app:labelVisibilityMode="labeled"
+        android:paddingBottom="10dp"
+        app:itemTextColor="@color/selector"
+        app:menu="@menu/bottom_navigation_view"
+        android:background="@color/primary_900">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.2dp"
+            android:background="@color/divider_color"
+            android:layout_gravity="top"
+            android:layout_marginTop="1dp"/>
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottom_navigation_view">
+
+        <FrameLayout
+            android:id="@+id/fragment_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </FrameLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@color/offline_item_color"
+            android:id="@+id/offline"
+            android:visibility="gone"
+            android:layout_gravity="bottom">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/text_900"
+                android:textStyle="bold"
+                android:textSize="12sp"
+                android:layout_centerInParent="true"
+                android:text="connect to the internet"/>
+
+        </RelativeLayout>
+
+    </FrameLayout>
+
+</RelativeLayout>
