@@ -23,17 +23,10 @@
             android:text="@string/setup"
             android:textAllCaps="false"
             android:textColor="@color/text_900"
+            android:layout_gravity="center"
             android:textSize="26sp" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="20dp"
-            android:fontFamily="@font/roboto"
-            android:text="Please tell somthing about you"
-            android:textAllCaps="false"
-            android:textColor="@color/text_600"
-            android:textSize="16sp" />
+
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -42,11 +35,14 @@
 
             <de.hdodenhof.circleimageview.CircleImageView
                 android:id="@+id/img_select_profile"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
+                android:src="@drawable/person"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
                 android:layout_gravity="center_horizontal"
                 app:civ_border_color="@color/text_900"
-                app:civ_border_width="2dp" />
+                app:civ_border_width="2dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="20dp"/>
 
             <com.google.android.material.textfield.TextInputLayout
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"

@@ -6,8 +6,10 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.ProgressDialog;
 import android.content.Intent;
+import android.graphics.Bitmap;
 import android.net.Uri;
 import android.os.Bundle;
+import android.provider.MediaStore;
 import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
@@ -28,6 +30,8 @@ import com.google.firebase.storage.UploadTask;
 import com.theartofdev.edmodo.cropper.CropImage;
 import com.theartofdev.edmodo.cropper.CropImageView;
 
+import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -102,6 +106,24 @@ public class SetupActivity extends AppCompatActivity {
         // some conditions for the picture
         if(requestCode == GALLERY_PICK && resultCode == RESULT_OK && data != null) {
             Uri ImageUri = data.getData();
+            try {
+                /*
+                Setting image into imageView using Bitmap
+                 */
+                Bitmap bitmap = MediaStore
+                        .Images
+                        .Media
+                        .getBitmap(
+                                getContentResolver(),
+                                ImageUri);
+
+                imgSelectProfile.setImageBitmap(bitmap);
+            } catch (FileNotFoundException e) {
+                e.printStackTrace();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+
             // crop the image
             CropImage.activity(ImageUri)
                     .setGuidelines(CropImageView.Guidelines.ON)

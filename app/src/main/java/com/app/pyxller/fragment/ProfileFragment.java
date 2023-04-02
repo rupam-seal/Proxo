@@ -234,7 +234,7 @@ public class ProfileFragment extends Fragment {
      */
     private void profilePosts() {
         DatabaseReference reference = FirebaseDatabase.getInstance().getReference("Posts");
-        Toast.makeText(getContext(), "reference"+ reference, Toast.LENGTH_SHORT).show();
+//        Toast.makeText(getContext(), "reference"+ reference, Toast.LENGTH_SHORT).show();
 
         reference.addValueEventListener(new ValueEventListener() {
             @Override

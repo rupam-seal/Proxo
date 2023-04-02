@@ -1,5 +1,7 @@
 package com.app.pyxller.activity;
 
+import static java.security.AccessController.getContext;
+
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
@@ -111,8 +113,8 @@ public class PostActivity extends AppCompatActivity {
         edtDesc1 = findViewById(R.id.edt_description1);
         edtDesc2 = findViewById(R.id.edt_description2);
         profileImage = findViewById(R.id.img_profile);
-        fullName = findViewById(R.id.edt_name);
-        userName = findViewById(R.id.edt_username);
+        fullName = findViewById(R.id.txt_name);
+        userName = findViewById(R.id.txt_username);
 
         /*
         Initialize and customise toolbar
@@ -187,7 +189,54 @@ public class PostActivity extends AppCompatActivity {
             }
         });
 
+        /*
+        User Info on Profile Fragment
+        Profile Picture
+        Name
+        UserName
+        Bio
+         */
+        db = FirebaseFirestore.getInstance();
+
+        db.collection("Users").document(uId).get().addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>() {
+            @Override
+            public void onComplete(@NonNull Task<DocumentSnapshot> task) {
+                if (task.isSuccessful()) {
+                    DocumentSnapshot document = task.getResult();
+                    if (document.exists()) {
+
+                        String strFullName = document.getString("fullname");
+                        String strUserName = document.getString("username");
+                        String strProfile = document.getString("profileimage");
+
+                    /*
+                    Set full name from database
+                     */
+                        fullName.setText(strFullName);
+
+                    /*
+                    Set user name from database
+                     */
+                        userName.setText(strUserName);
+
+
+                    /*
+                    Set profile from database
+                     */
+                        if (getContext() != null) {
+                            Glide.with(PostActivity.this)
+                                    .load(strProfile)
+                                    .into(profileImage);
+                        }
+
+                    }
+                }
+            }
+        });
+
+
     }
+
 
     /**
      * OnOptionItemSelected listener
